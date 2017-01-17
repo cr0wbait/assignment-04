@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+
+}
+
+body {
+  font-family: "Libre Franklin", "Helvetica", "sans-serif";
+}
+
+footer {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #333;
+  padding: 7px 20px 5px 60%;
+}
+
+#app-container {
+  max-width: 1020px;
+  font-size: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  background-color: #f55e05;
+  width: 100%;
+  height: 70px;
+}
+
+.navbar img {
+  max-width: 90px;
+  max-height: 30px;
+  vertical-align: middle;
+  padding: ;
+}
+
+.navbar li {
+  display: inline;
+  color: #fff;
+  font-size: medium;
+  text-align: center;
+  width: 140px;
+  padding: 10px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lyp {
+  color: #b0e6e2;
+  border: 1px solid #b0e6e2;
+  padding: 10px;
+}
+
+.lyp:hover {
+  background-color: #b0e6e2;
+  color: #000;
+}
+
+.splash {
+  width: 1020px;
+  background-image: url(../images/hero-splash-roommates-fun.jpg);
+  background-size: cover;
+  padding: 260px 0;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.insider {
+  background: rgba(68, 68, 68, 0.5);
+  padding: 10px;
+  text-align: center;
+}
+
+.insider h1, p {
+  opacity: 1.0;
+}
+
+.instext {
+  color: #fff;
+  font-weight: 200;
+  align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sbar {
+  height: 40px;
+  width: 40%;
+  display: block;
+  vertical-align: top;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sbutn {
+  height: 100%;
+  width: 31.25%;
+  color:  #fff;
+  background-color: #29bbaf;
+  padding: 5px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.locations {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.city {
+  padding: 10px;
+  vertical-align: top;
+  display: inline-block;
+  width: 25%;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.city p {
+  color: #fff;
+  background-color: #444;
+  padding: 5px 5px 5px 5px;
+  max-width: 200px;
+  margin-top: 0;
+}
+
+.city img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 0;
+}
+
+.more{
+  color: #f55e05;
+  background-color: #fff;
+  border: 2px solid #f55e05;
+  width: 120px;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.demo{
+  background-color: #ddd;
+  font-size: medium;
+  display: inline-block;
+  width: 1020px;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.demo img{
+  height: auto;
+  width: 100%;
+}
+
+.democon1 {
+  position: relative;
+  float: left;
+  vertical-align: top;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.price {
+  font-size: medium;
+  position: absolute;
+  top: 115px;
+  left: 123px;
+  background-color: rgba(20, 20, 20, 0.75);
+  color: #fff;
+  padding-right: 10px;
+}
+
+.hrt {
+  border-radius: 50%;
+  background-color: rgba(200, 0, 0, 0.6);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 15px;
+  right: 130px;
+}
+
+.heart {
+  margin-top: 17px;
+  margin-left: 12px;
+  height: 23px;
+  width: 23px;
+}
+
+.democon2 {
+  float: right;
+  vertical-align: top;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sdemo {
+  border: 1px solid black;
+  background-color: #fff;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sdemo h4, p {
+  padding-left: 15px;
+}
+
+.sdemo p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.list {
+  width: 50%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.list h2 {
+  font-weight: 400;
+}
+
+.links {
+  background-color: #333;
+  vertical-align: top;
+  font-size: medium;
+}
+
+.links h4 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.links p {
+  color: #aaa;
+}
+
+.linkstack {
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding-left: 10px;
+
+}
+
+.chatbox {
+  font-size: medium;
+  position: fixed;
+  bottom:3px;
+  left: 3px;
+  border: 5px solid #29bbaf;
+  height: 160px;
+  width: 350px;
+  background-color: #fff;
+}
+
+.chatbox h3 {
+  color: #000;
+  background-color: #b0e6e2;
+  padding: 15px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+.chat p {
+  margin-top: 0;
+}
+
+.chat img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  border: 1px solid black;
+  margin-left: 15px;
+  float: left;
+}
+
+.livechat {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.lc {
+  color: #f55e05;
+}
+
+.arrow {
+  position: absolute;
+  top: -50px;
+  right: -5px;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #29bbaf;
+  background-color: #29bbaf;
+}
+
+#up-triangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -12px;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
